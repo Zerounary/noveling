@@ -40,7 +40,7 @@ export const useOutlineStore = defineStore('outline', {
         },
         {
           type: 'when',
-          descriptio: '什么年代',
+          description: '什么年代',
           items: [
             '总体年代框架',
             '主角隶属年代',
@@ -50,7 +50,7 @@ export const useOutlineStore = defineStore('outline', {
         },
         {
           type: 'where',
-          descriptio: '什么地方',
+          description: '什么地方',
           items: [
             '完整的世界架构',
             '主角所在的大陆',
@@ -61,7 +61,7 @@ export const useOutlineStore = defineStore('outline', {
         },
         {
           type: 'how much',
-          descriptio: '什么样的经历',
+          description: '什么样的经历',
           items: [
             '穿越',
             '得金手指',
@@ -117,7 +117,7 @@ export const useOutlineStore = defineStore('outline', {
         },
         {
           type: 'what',
-          descriptio: '什么样的世界观',
+          description: '什么样的世界观',
           items: [
             '世界体系',
             '等级体系',
@@ -140,7 +140,7 @@ export const useOutlineStore = defineStore('outline', {
         },
         {
           type: 'why',
-          descriptio: '为什么想要变强',
+          description: '为什么想要变强',
           items: [
             '复仇',
             '守护',
