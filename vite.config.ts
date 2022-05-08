@@ -7,6 +7,7 @@ import Components from 'unplugin-vue-components/vite'
 import PurgeIcons from 'vite-plugin-purge-icons';
 import ViteFonts from 'vite-plugin-fonts';
 import svgLoader from 'vite-svg-loader';
+import Pages from 'vite-plugin-pages'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -24,6 +25,7 @@ export default defineConfig({
   plugins: [
     vue(),
     // https://github.com/jpkleemans/vite-svg-loader
+    Pages(),
     svgLoader(),
     // https://github.com/antfu/vite-plugin-components
     Components({
